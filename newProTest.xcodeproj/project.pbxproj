@@ -249,6 +249,9 @@
 				Base,
 			);
 			mainGroup = 2D1A77C629BB1BA400C95538;
+			packageReferences = (
+				2D1A780829BB20A000C95538 /* XCRemoteSwiftPackageReference "gitTest" */,
+			);
 			productRefGroup = 2D1A77D429BB1BA800C95538 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -701,6 +704,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2D1A780829BB20A000C95538 /* XCRemoteSwiftPackageReference "gitTest" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/uemtest/gitTest";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 2D1A77C729BB1BA400C95538 /* Project object */;
 }
